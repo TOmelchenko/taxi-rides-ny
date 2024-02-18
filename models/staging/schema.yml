@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: staging
+    database: dezc2024-taxi-data
+    schema: trips_data_all
+
+    tables:
+      - name: green_trips_data
+      - name: yellow_trips_data
+      - name: fhv_trips_data
